@@ -1,0 +1,9 @@
+{
+  "icecubes": {
+    "type": "http",
+    "url": "https://icecubes-app.fly.dev/api/mcp",
+    "headers": {
+      "Authorization": "Bearer ${ICECUBES_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "icecubes",
+  "version": "1.0.0",
+  "description": "Meeting intelligence for Claude Code. Search transcripts, track action items, prep for meetings, and analyze deals — all from your IceCubes meeting data.",
+  "author": {
+    "name": "IceCubes",
+    "email": "support@icecubes.app"
+  },
+  "homepage": "https://icecubes-app.fly.dev/docs/integrations/claude-code",
+  "repository": "https://github.com/manuaws2026-maker/IceCubesClaudePlugin",
+  "license": "MIT",
+  "keywords": [
+    "meetings",
+    "transcripts",
+    "action-items",
+    "sales-insights",
+    "meddic",
+    "crm",
+    "meeting-notes"
+  ]
+}
