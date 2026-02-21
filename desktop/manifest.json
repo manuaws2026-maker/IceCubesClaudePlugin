@@ -38,5 +38,5 @@
   "compatibility": {
     "platforms": ["darwin", "win32"]
   },
-  "privacy_policies": "https://icecubes.app/privacy"
+  "privacy_policies": ["https://icecubes.app/privacy"]
 }
