@@ -15,8 +15,7 @@
     "entry_point": "server.js",
     "mcp_config": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://icecubes.app/api/mcp"],
-      "environment": {}
+      "args": ["-y", "mcp-remote", "https://icecubes.app/api/mcp"]
     }
   },
   "icon": "icon.png",
@@ -37,13 +36,7 @@
   ],
   "tools_generated": true,
   "compatibility": {
-    "platforms": ["darwin", "win32"],
-    "claude_desktop_min_version": "0.0.1"
+    "platforms": ["darwin", "win32"]
   },
-  "privacy_policies": [
-    {
-      "name": "Privacy Policy",
-      "url": "https://icecubes.app/privacy"
-    }
-  ]
+  "privacy_policies": "https://icecubes.app/privacy"
 }
