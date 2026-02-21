@@ -1,0 +1,49 @@
+{
+  "manifest_version": "0.3",
+  "name": "icecubes",
+  "version": "1.2.0",
+  "display_name": "IceCubes",
+  "description": "Meeting intelligence for Claude Desktop. Search transcripts, track action items, prep for meetings, and analyze deals — all from your IceCubes meeting data.",
+  "long_description": "# IceCubes for Claude Desktop\n\nIceCubes connects Claude to your meeting data, giving you instant access to transcripts, action items, sales insights, and more.\n\n## What you can do\n\n- **Search transcripts** — Find specific quotes, topics, or decisions across all your meetings\n- **Track action items** — Review, create, and complete action items\n- **Prep for meetings** — Get relationship history, open items, and talking points\n- **Analyze deals** — Full MEDDIC analysis, timeline, objections, and next steps\n- **Weekly recaps** — Summarize meetings, decisions, and new action items\n\n## Authentication\n\nOn first use, your browser will open to sign in to IceCubes. After you approve access, the connection is ready — no API key needed.",
+  "author": {
+    "name": "IceCubes",
+    "email": "support@icecubes.app",
+    "url": "https://icecubes.app"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "server.js",
+    "mcp_config": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://icecubes.app/api/mcp"],
+      "environment": {}
+    }
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuaws2026-maker/IceCubesClaudePlugin"
+  },
+  "homepage": "https://icecubes.app",
+  "documentation": "https://icecubes.app/docs/integrations/claude-code",
+  "keywords": [
+    "meetings",
+    "transcripts",
+    "action-items",
+    "sales-insights",
+    "meddic",
+    "crm",
+    "meeting-notes"
+  ],
+  "tools_generated": true,
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "claude_desktop_min_version": "0.0.1"
+  },
+  "privacy_policies": [
+    {
+      "name": "Privacy Policy",
+      "url": "https://icecubes.app/privacy"
+    }
+  ]
+}

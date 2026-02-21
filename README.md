@@ -1,10 +1,18 @@
-# IceCubes Plugin for Claude Code
+# IceCubes for Claude
 
-Meeting intelligence for Claude Code. Search transcripts, track action items, prep for meetings, and analyze deals — all from your IceCubes meeting data.
+Meeting intelligence for Claude. Search transcripts, track action items, prep for meetings, and analyze deals — all from your IceCubes meeting data.
 
-## Quick Install
+## Install
 
-### Option 1: Marketplace (recommended)
+### Claude Desktop
+
+Download [icecubes.mcpb](https://github.com/manuaws2026-maker/IceCubesClaudePlugin/raw/main/icecubes.mcpb) and double-click to install, or drag it into Claude Desktop.
+
+On first use, your browser will open to sign in to IceCubes. After you approve access, the connection is ready — no API key needed.
+
+### Claude Code (CLI)
+
+**Option 1: Marketplace (recommended)**
 
 ```bash
 # In Claude Code:
@@ -12,7 +20,7 @@ Meeting intelligence for Claude Code. Search transcripts, track action items, pr
 /plugin install icecubes@icecubes-marketplace
 ```
 
-### Option 2: One-line install
+**Option 2: One-line install**
 
 ```bash
 curl -sSL https://icecubes.app/api/plugin/install | bash
@@ -26,10 +34,10 @@ claude --plugin-dir ~/.claude/plugins/icecubes
 
 ## Prerequisites
 
-1. **Claude Code** — Install from [claude.ai/claude-code](https://claude.ai/claude-code) (version 1.0.33 or later)
+1. **Claude Desktop** or **Claude Code** (version 1.0.33 or later)
 2. **An IceCubes account** — Sign up at [icecubes.app](https://icecubes.app) if you don't have one
 
-On first use, Claude Code will open your browser to sign in to IceCubes via OAuth. After you approve access, the plugin is ready — no API key or environment variable needed.
+On first use, Claude will open your browser to sign in to IceCubes via OAuth. After you approve access, the plugin is ready — no API key or environment variable needed.
 
 ### Alternative: API Key Authentication
 
@@ -40,7 +48,7 @@ claude mcp add --transport http icecubes https://icecubes.app/api/mcp \
   --header "Authorization: Bearer ik_your_key_here"
 ```
 
-## Slash Commands
+## Slash Commands (Claude Code only)
 
 | Command | Description |
 |---------|-------------|
@@ -86,7 +94,7 @@ The plugin connects to IceCubes' MCP server, exposing these tools:
 
 ## Documentation
 
-Full documentation: [IceCubes Claude Code Plugin Docs](https://icecubes.app/docs/integrations/claude-code)
+Full documentation: [IceCubes Plugin Docs](https://icecubes.app/docs/integrations/claude-code)
 
 ## License
 
