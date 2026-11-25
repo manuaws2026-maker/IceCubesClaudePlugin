@@ -13,7 +13,7 @@ The user wants a comprehensive review of a deal or account.
 
 1. **Find all related meetings** — Use `get_meetings` with keyword matching the company/deal name. Also use `search_meetings` to find mentions in transcripts and summaries.
 
-2. **Get contacts** — Use `get_contacts` with domain filtering (e.g., `domain: "pinnacle.com"`) to identify all stakeholders.
+2. **Map stakeholders** — Collect the participants listed on each related meeting from `get_meeting` (names, roles mentioned in the transcript, who attended which call). Use `get_meetings` with `participant` set to a person's email to find every call they joined.
 
 3. **Gather meeting details** — For each relevant meeting, use `get_meeting` for summaries and `get_insights` for MEDDIC analysis, objections, competitor mentions, and sentiment.
 

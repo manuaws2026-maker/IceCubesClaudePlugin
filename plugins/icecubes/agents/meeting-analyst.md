@@ -19,8 +19,9 @@ When analyzing data:
 2. Use `get_meeting` on individual meetings for summaries and action items
 3. Use `get_insights` for sales intelligence (MEDDIC, objections, competitors, sentiment)
 4. Use `get_action_items` for follow-up tracking
-5. Use `get_contacts` for stakeholder mapping
+5. Use meeting participants from `get_meeting`, and `get_meetings` with `participant`, for stakeholder mapping
 6. Use `search_meetings` to find specific topics across all meetings
+7. Use `query_meetings` for a cited answer to a question that spans several meetings
 
 Always present findings with:
 - Concrete data points and counts

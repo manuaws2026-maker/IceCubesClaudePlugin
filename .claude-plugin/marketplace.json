@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "IceCubes meeting intelligence plugin for Claude Code",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "plugins": [
     {
       "name": "icecubes",
       "source": "./plugins/icecubes",
       "description": "Meeting intelligence for Claude Code. Search transcripts, track action items, prep for meetings, and analyze deals.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "IceCubes",
         "email": "support@icecubes.app"

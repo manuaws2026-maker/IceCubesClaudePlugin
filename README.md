@@ -60,7 +60,7 @@ claude mcp add --transport http icecubes https://icecubes.app/api/mcp \
 
 ## MCP Tools
 
-The plugin connects to IceCubes' MCP server, exposing these tools:
+The plugin connects to IceCubes' MCP server, exposing these 15 tools:
 
 - `get_user` — Your profile and meeting stats
 - `get_meetings` — List/filter meetings by date, keyword, participant, tag, or CRM deal/opportunity
@@ -73,8 +73,11 @@ The plugin connects to IceCubes' MCP server, exposing these tools:
 - `update_action_item` — Update or complete an action item
 - `get_notes` — Meeting notes
 - `update_notes` — Update meeting notes
-- `get_contacts` — Contacts from your meetings
 - `get_tags` — Available tags (org and personal)
+- `query_meetings` — Ask a question across several meetings and get a cited answer
+- `search` / `fetch` — Search and read meetings in the standard format used by deep-research clients
+
+When you connect, you can untick **Allow changes** for read-only access (the create/update tools are then hidden). Manage or disconnect access anytime in IceCubes **Settings → Integrations → Connected apps**.
 
 ## Examples
 
