@@ -1,0 +1,13 @@
+{
+  "name": "icecubes",
+  "version": "1.2.1",
+  "description": "Your Google Meet, Zoom and Teams meetings in Gemini CLI: search transcripts, summaries, action items and sales insights. No bots join your calls.",
+  "mcpServers": {
+    "icecubes": {
+      "url": "https://icecubes.app/api/mcp",
+      "type": "http",
+      "timeout": 120000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

@@ -32,6 +32,18 @@ Then start Claude Code with:
 claude --plugin-dir ~/.claude/plugins/icecubes
 ```
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/manuaws2026-maker/IceCubesClaudePlugin
+```
+
+Then run `/mcp auth icecubes` inside Gemini CLI to sign in. Full guide: [IceCubes for Gemini](https://icecubes.app/docs/integrations/gemini)
+
+### Other AI tools
+
+Cursor, VS Code, Codex, Windsurf and any MCP client: add the remote server `https://icecubes.app/api/mcp` (OAuth sign-in, no API key needed). Guides: [icecubes.app/docs/integrations](https://icecubes.app/docs/integrations)
+
 ## Prerequisites
 
 1. **Claude Desktop** or **Claude Code** (version 1.0.33 or later)
